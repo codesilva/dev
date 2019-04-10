@@ -1,11 +1,11 @@
 {
-    "ChapterName":"GDG Jalandhar",
-    "ChapterShortDescription":"Google Developers Group Jalandhar is an initiative to concentrate the efforts of many developers in and around Punjab to learn, share and get productive using the various Google products.",
+    "ChapterName":"Codesilva",
+    "ChapterShortDescription":"Oi, meu nome é Edigleysson Silva e sou desenvolvedor há 7 anos. Durante estes anos me especializei no desenvolvimento web e mobile fullstack.",
     "ChapterLongDec":"Google Developer Group Jalandhar is inspired by GTUG/GDG Family . We started our journey in Feb 2011. We try to engage student developers, fresh graduates and professionals through our hack events & meetups. The motive is to create a local ecosystem of programmers & hackers in and around Jalandhar. The technology awareness is main goal for first few years of the group.",
-    "ChapterMeetupLink":"https://www.meetup.com/GDG-Jalandhar",
-    "ChapterEmail":"gdgjalandhar@gmail.com",
-    "website":"https://gdgjalandhar.com",
-    "GDGProgramWebsite":"https://developers.google.com/programs/community/",
+    "ChapterMeetupLink":"https://codesilva.github.io",
+    "ChapterEmail":"edigleyssonsilva@gmail.com",
+    "website":"https://codesilva.github.io",
+    "GDGProgramWebsite":"https://codesilva.github.io",
     "ChapterHashTags":["GDGJalandhar","WTMJalandhar","GDG","WTM"],
     "socialLinks":[
         {

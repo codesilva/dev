@@ -37,9 +37,9 @@ export default new Router({
       component: () => import('./views/Team.vue')
     },
     {
-      path: '/events',
-      name: 'events',
-      component: () => import('./views/Events.vue')
+      path: '/ebooks',
+      name: 'ebooks',
+      component: () => import('./views/Ebooks.vue')
     },
     {
       path: '/contact',
