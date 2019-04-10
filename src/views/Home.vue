@@ -76,6 +76,7 @@
   // import wtmInfo from '@/components/home/wtmInfo'
   import partners from '@/components/home/partners'
   import featureEvent from '@/components/home/featureEvent'
+  import Router from 'vue-router';
   
   export default {
     components: {
@@ -86,6 +87,15 @@
       // wtmInfo,
       partners,
       featureEvent
+    },
+
+    mounted() {
+      let path = localStorage.getItem('path');
+      console.log(path);
+      if(path) {
+        localStorage.removeItem('path');
+        this.$router.push(path);
+      }
     }
   }
 </script>
