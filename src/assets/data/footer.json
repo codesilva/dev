@@ -1,19 +1,16 @@
 {
     "AboutSession":[
         {
-            "LinkName":"GDG Jalandhar",
+            "LinkName":"Codesilva",
             "Link":"/"
         },
         {
-            "LinkName":"Google Developers Groups",
-            "Link":"https://developers.google.com/programs/community/gdg/"
+            "LinkName":"Byte Girl",
+            "Link":"https://bytegirl.com.br"
         },
+        
         {
-            "LinkName":"WomenTechamkers",
-            "Link":"https://www.womentechmakers.com/"
-        },
-        {
-            "LinkName":"Become a Member",
+            "LinkName":"GDG Fortaleza",
             "Link":"https://www.meetup.com/GDG-Jalandhar/"
         }
     ],

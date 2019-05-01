@@ -9,6 +9,14 @@
       </v-layout>
     </v-container>
 
+    <v-container fluid>
+      <v-layout wrap align-center justify-center row fill-height class="">
+        <v-flex xs12 md10 >
+          <posts />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
     <v-container fluid style="background-color:#F9F9F9" >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class="">
@@ -25,15 +33,15 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid >
+    <!-- <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class="">
           <eventshowcase />
         </v-flex>
       </v-layout>
-    </v-container>
+    </v-container> -->
 
-  
+<!--   
     <v-container fluid class="py-5" style="background-color:#F9F9F9">
       <v-layout wrap align-start justify-start row fill-height>
         <v-flex xs12 md10 offset-md1 offset-lg1 >
@@ -43,7 +51,7 @@
           <featureEvent />
         </v-flex>
       </v-layout>
-    </v-container>
+    </v-container> -->
 
      <!-- <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
@@ -53,13 +61,13 @@
       </v-layout>
     </v-container> -->
 
-    <v-container fluid >
+    <!-- <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <partners />
         </v-flex>
       </v-layout>
-    </v-container>
+    </v-container> -->
 
     
 
@@ -71,6 +79,7 @@
 <script>
   import HomeStartScreen from '@/components/home/HomeStartScreen'
   import whatWeDo from '@/components/home/whatWeDo'
+  import posts from '@/components/home/posts'
   import AboutGDGChapter from '@/components/home/AboutGDGChapter'
   import eventshowcase from '@/components/home/eventshowcase'
   // import wtmInfo from '@/components/home/wtmInfo'
@@ -82,6 +91,7 @@
     components: {
       HomeStartScreen,
       whatWeDo,
+      posts,
       AboutGDGChapter,
       eventshowcase,
       // wtmInfo,
