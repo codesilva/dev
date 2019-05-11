@@ -25,6 +25,23 @@ import firebase from 'firebase';
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+
+router.beforeEach((to, from, next) => {
+  const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
+  if(nearestWithTitle) document.title = nearestWithTitle.meta.title;
+  else document.title = 'CodeSilva';
+
+
+
+  if(to.matched.slice()[0].name === 'blogsingleid') {
+    if(!localStorage.readingPost) return;
+    let postTitle = JSON.parse(localStorage.readingPost).title;
+    document.title = postTitle + ' - CodeSilva';
+  }
+
+  next();
+});
+
 Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 

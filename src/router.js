@@ -29,6 +29,9 @@ export default new Router({
     {
       path: '/about',
       name: 'about',
+      meta: {
+        title: 'Codesilva - Sobre'
+      },
       component: () => import('./views/About.vue')
     },
     {
@@ -39,17 +42,27 @@ export default new Router({
     {
       path: '/ebooks',
       name: 'ebooks',
+      meta: {title: 'CodeSilva - Ebooks'},
       component: () => import('./views/Ebooks.vue')
     },
     {
       path: '/post',
       name: 'blogsingle',
+      meta: {title: 'CodeSilva - '},
       component: () => import('./views/BlogSingle.vue')
+    },
+
+    {
+      path: '/blog',
+      name: 'blog',
+      meta: {title: 'CodeSilva - Blog'},
+      component: () => import('./views/Blog.vue')
     },
 
     {
       path: '/post/:id',
       name: 'blogsingleid',
+      meta: {title: 'CodeSilva - '},
       component: () => import('./views/BlogSingle.vue')
     },
     

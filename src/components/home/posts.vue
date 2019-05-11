@@ -43,6 +43,8 @@
       };
     },
 
+    props: ['max'],
+
     methods: {
       seePost(post) {
         localStorage.setItem('readingPost', JSON.stringify(post));
@@ -51,9 +53,12 @@
     },
 
     mounted() {
-
+      let max = 6;
+      if(this.max !== undefined) {
+        max = parseInt(this.max);
+      }
        let posts = firebase.firestore().collection('posts');
-        posts.limit(6).get()
+        posts.limit(max).get()
         .then(querySnapshot => {
           querySnapshot.forEach(doc => {
             let id = doc.id, data = doc.data();

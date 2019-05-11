@@ -2,7 +2,7 @@
     "AboutSession":[
         {
             "LinkName":"Codesilva",
-            "Link":"/"
+            "Link":"/about"
         },
         {
             "LinkName":"Byte Girl",
@@ -16,16 +16,12 @@
     ],
     "ChapterResourcesSession":[
         {
-            "LinkName" : "Become a Sponsor",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
+            "LinkName" : "Portfolio",
+            "Link" : "/portfolio"
         },
         {
-            "LinkName" : "Call for Speaker",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
-        },
-        {
-            "LinkName" : "Media Kit",
-            "Link" : "https://drive.google.com/drive/folders/16rHDaHbuS_YApMWgJHUxygpd-A5gCkLK"
+            "LinkName" : "Convite para palestrar",
+            "Link" : "/contact"
         }
     ],
     "DevConsole":[
