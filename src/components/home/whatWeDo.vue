@@ -5,7 +5,7 @@
                <p class="google-font" style="font-size:180%">O que encontrará aqui?</p>
                <p class="google-font" style="font-size:110%">Atuando na área há 7 anos, tenho focado mais no desenvolvimento de aplicações mobile e web.</p>
 
-               <p class="google-font" style="font-size:110%">Algumas tecnologias com que trabalhp</p>
+               <p class="google-font" style="font-size:110%">Algumas tecnologias com que trabalho</p>
 
                 <v-tooltip bottom>
                     <template v-slot:activator="{ on }">
@@ -58,13 +58,13 @@
                     <v-flex xs6 sm6 md4 lg4 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">chat_bubble</v-icon>
                         <p class="google-font" style="font-size:130%">Palestras</p>
-                        <p class="google-font" style="font-size:110%">Get updated with the latest news and announcements</p>
+                        <p class="google-font" style="font-size:110%">A cada palestra que conduzo, procuro trazer coisas novas. Tudo isso estará presente aqui também.</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md4 lg4 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">code</v-icon>
                         <p class="google-font" style="font-size:130%">Exemplos de código</p>
-                        <p class="google-font" style="font-size:110%">Get hands-on experience and guidance from the community members</p>
+                        <p class="google-font" style="font-size:110%">Bom, fazendo é melhor que vendo. Aqui você encontrará vários exemplos de código dos tutoriais que fazemos.</p>
                     </v-flex>
 <!-- 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
@@ -76,7 +76,7 @@
                     <v-flex xs6 sm6 md4 lg4 class="text-xs-center pa-2">
                         <v-icon large style="font-size:300%">airplay</v-icon>
                         <p class="google-font" style="font-size:130%">Tutoriais em vídeo</p>
-                        <p class="google-font" style="font-size:110%">Share knowledge in different Companies, colleges and universities</p>
+                        <p class="google-font" style="font-size:110%">Complemente seu conhecimento assistindo aos vídeos no canal do YouTube.</p>
                     </v-flex>
 
                 </v-layout>

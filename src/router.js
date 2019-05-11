@@ -42,6 +42,18 @@ export default new Router({
       component: () => import('./views/Ebooks.vue')
     },
     {
+      path: '/post',
+      name: 'blogsingle',
+      component: () => import('./views/BlogSingle.vue')
+    },
+
+    {
+      path: '/post/:id',
+      name: 'blogsingleid',
+      component: () => import('./views/BlogSingle.vue')
+    },
+    
+    {
       path: '/contact',
       name: 'contact',
       component: () => import('./views/Contact.vue')
