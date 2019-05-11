@@ -1,6 +1,5 @@
 <template>
   <v-content class="pa-0">
-
     <v-container fluid class="my-4">
       <v-layout wrap align-center justify-center row fill-height class="">
         <v-flex xs12 md10 >
@@ -73,7 +72,6 @@
 
 
   </v-content>
-  
 </template>
 
 <script>
@@ -86,6 +84,7 @@
   import partners from '@/components/home/partners'
   import featureEvent from '@/components/home/featureEvent'
   import Router from 'vue-router';
+  import firebase from 'firebase';
   
   export default {
     components: {
@@ -99,6 +98,12 @@
       featureEvent
     },
 
+    data() {
+      return {
+        posts: []
+      };
+    },
+
     mounted() {
       let path = localStorage.getItem('path');
       console.log(path);
@@ -109,3 +114,4 @@
     }
   }
 </script>
+
