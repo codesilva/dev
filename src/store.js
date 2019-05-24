@@ -12,7 +12,7 @@ export default new Vuex.Store({
       // { text: 'Team', to: '/team', icon:'group'},
       { text: 'Sobre', to: '/about', icon: 'toc'},
       { text: 'Blog', to: '/blog', icon: 'toc'},
-      { text: 'Ebooks', to: '/ebooks', icon: 'book'},
+      { text: 'Portfolio', to: '/portfolio', icon: 'book'},
       { text: 'Contato', to: '/contact', icon:'person'}
     ]
   },

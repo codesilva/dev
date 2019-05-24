@@ -40,10 +40,10 @@ export default new Router({
       component: () => import('./views/Team.vue')
     },
     {
-      path: '/ebooks',
-      name: 'ebooks',
-      meta: {title: 'CodeSilva - Ebooks'},
-      component: () => import('./views/Ebooks.vue')
+      path: '/portfolio',
+      name: 'portfolio',
+      meta: {title: 'CodeSilva - Portfolio'},
+      component: () => import('./views/Portfolio.vue')
     },
     {
       path: '/post',
