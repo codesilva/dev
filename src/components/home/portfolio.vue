@@ -10,7 +10,7 @@
                     style="">
 
                     <v-img
-                    src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
+                    :src="item.img"
                     aspect-ratio="1.75"
                     ></v-img>
 
@@ -42,32 +42,38 @@
                 items: [
                     {
                         title: 'App: Olha a Água',
-                        description: 'App que localiza pontos de venda água mineral na cidade de Fortaleza. Foi um dos projetos apresentados na <a href="">Clinton Foundation</a> em Chicago.'
+                        description: 'App que localiza pontos de venda água mineral na cidade de Fortaleza. Foi um dos projetos apresentados na <a href="">Clinton Foundation</a> em Chicago.',
+                        img: require('@/assets/img/portfolio/app-olha-a-agua.png')
                     },
 
                     {
                         title: 'Site: Chinelos Peggy',
-                        description: 'E-commerce de venda de brindes de casamento. Uma loja que vende brindes para todos Brasil e é lider do mercado.'
+                        description: 'E-commerce de venda de brindes de casamento. Uma loja que vende brindes para todos Brasil e é lider do mercado.',
+                        img: require('@/assets/img/portfolio/chinelos-peggy.jpg')
                     },
 
                     {
                         title: 'Site: GDG Fortaleza',
-                        description: 'Website desenvolvido para o <b>GDG (Google Developers Group) Fortaleza</b>. Este site é um canal onde pessoas interessadas na comunidade podem encontrar mais informações.'
+                        description: 'Website desenvolvido para o <b>GDG (Google Developers Group) Fortaleza</b>. Este site é um canal onde pessoas interessadas na comunidade podem encontrar mais informações.',
+                        img: require('@/assets/img/portfolio/gdg-fortaleza.png')
                     },
 
-                    {
-                        title: 'E-commerce: Westfall',
-                        description: 'Loja de moda desenvolvida com o CMS Magento. Possui diversar integrações como <b>Google Analytics</b>, <b>Paypal</b> e mais.'
-                    },
+                    // {
+                    //     title: 'E-commerce: Westfall',
+                    //     description: 'Loja de moda desenvolvida com o CMS Magento. Possui diversar integrações como <b>Google Analytics</b>, <b>Paypal</b> e mais.',
+                    //     img: require('@/assets/img/portfolio/gdg-fortaleza.png')
+                    // },
 
                     {
                         title: 'Site: Loja Mundo da Arte',
-                        description: 'Loja virtual para empresa de artesanato. Projeto desenvolvido com <b>Woocommerce</b> e <b>Wordpress</b>. Loja mundo da arte é referência em artigos artesanais na cidade de Fortaleza.'
+                        description: 'Loja virtual para empresa de artesanato. Projeto desenvolvido com <b>Woocommerce</b> e <b>Wordpress</b>. Loja mundo da arte é referência em artigos artesanais na cidade de Fortaleza.',
+                        img: require('@/assets/img/portfolio/loja-mundo-da-arte.jpg')
                     },
 
                     {
                         title: 'Site: Byte Girl',
-                        description: 'Site da comunidade Byte Girl, que tem como foco a inclusão de mulheres na área de exatas e no mundo da tecnologia em si. É o maior evento com foco noo Público Feminio do Ceará.'
+                        description: 'Site da comunidade Byte Girl, que tem como foco a inclusão de mulheres na área de exatas e no mundo da tecnologia em si. É o maior evento com foco noo Público Feminio do Ceará.',
+                        img: require('@/assets/img/portfolio/bytegirl-black.jpg')
                     },
                 ],
 
