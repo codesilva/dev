@@ -4,11 +4,11 @@
       <v-layout wrap align-start justify-center row fill-height class="my-0">
         <v-flex xs12 md8 class="mb-0">
           
-          <p class="google-font mb-0 mt-3" style="font-size:200%;color:#616161">Contact {{ChapterDetails.ChapterName}}</p>
+          <p class="google-font mb-0 mt-3" style="font-size:200%;color:#616161">Contato</p>
           <v-divider></v-divider>
-          <p class="google-font mt-3" style="font-size:110%">Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
+          <p class="google-font mt-3" style="font-size:110%">Entre em contato se deseja fazer alguma sugestão ou crítica, se deseja que participe de algum projeto ou evento em específico. Estou aberto para contribuir com seus projetos, ainda mais se forem open source.</p>
           
-          <p class="google-font mb-0" style="font-size:130%">Social Media:</p>
+          <p class="google-font mb-0" style="font-size:130%">Encontre-me nas redes sociais:</p>
           <p class="google-font mt-0 ml-0" style="font-size:130%" >
             <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
               <v-tooltip bottom>
@@ -20,7 +20,7 @@
             </span>
           </p>
             
-            <p class="google-font mb-0" style="font-size:120%">Questions? Please contact {{ChapterDetails.ChapterEmail}}.</p>
+            <p class="google-font mb-0" style="font-size:120%">Se preferir envie e-mail para: <b>{{ChapterDetails.ChapterEmail}}</b>.</p>
         </v-flex>
         <v-flex xs12 md2 lg2 class="pa-2">
           <v-img
@@ -42,8 +42,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-
-    
 
 
 

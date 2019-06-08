@@ -69,6 +69,8 @@
         </v-flex>
       </v-layout>
 
+      <p style="text-align: center;">Site desenvolvido com o template <a href="https://github.com/gdg-x/aura" target="_blank" title="Repositório GDG Aura">Aura</a> do repositório GDG[X]</p>
+
     </v-container>
   </v-footer>
 </template>

@@ -42,7 +42,7 @@
                 items: [
                     {
                         title: 'App: Olha a Água',
-                        description: 'App que localiza pontos de venda água mineral na cidade de Fortaleza. Foi um dos projetos apresentados na <a href="">Clinton Foundation</a> em Chicago.',
+                        description: `App que localiza pontos de venda água mineral na cidade de Fortaleza. Foi um dos projetos apresentados na <a href="https://glo.bo/2XEIYu8" target="_blank">Clinton Foundation</a> em Chicago.`,
                         img: require('@/assets/img/portfolio/app-olha-a-agua.png')
                     },
 
