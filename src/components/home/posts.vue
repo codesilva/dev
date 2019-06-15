@@ -54,9 +54,43 @@
 
     mounted() {
       let max = 6;
-      if(this.max !== undefined) {
-        max = parseInt(this.max);
+      let _posts = localStorage.getItem('posts');
+      if(_posts) {
+        _posts = JSON.parse(_posts);
+        console.log(_posts);
+        let today = new Date();
+        const _datePosts = new Date(localStorage.getItem('date_posts'));
+        _datePosts.setTime(_datePosts.getTime() + 1*24*60*60*1000);
+
+        if(today.getTime() <= _datePosts.getTime()) {
+          console.log('carregando do cache');
+          for(let post of _posts) {
+            this.posts.push(post);
+          }
+          return;
+        }
+        
       }
+      
+        // console.log(localStorage);
+        // max = parseInt(this.max);
+        // let hasPosts = localStorage.getItem('posts');
+        // if(hasPosts) {
+        //  let datePost = localStorage.getItem('date_posts');
+        //  if(datePost) {
+        //    const maxDate = new Date();
+        //    maxDate.setHours(23);
+        //    maxDate.setMinutes(59);
+        //    maxDate.setMinutes(59);
+
+        //    let datePosts = JSON.parse(datePost);
+
+        //     // console.log(datePosts);
+        //     // console.log(maxDate);
+
+        //  }
+        // }
+
        let posts = firebase.firestore().collection('posts');
         posts.limit(max).get()
         .then(querySnapshot => {
@@ -68,6 +102,10 @@
               path: 'post/'+data.slug
             });
           });
+
+          // salvando posts no localstorage
+          localStorage.setItem('posts', JSON.stringify(this.posts));
+          localStorage.setItem('date_posts', new Date());
         })
         .catch(err => {
           alert("Falha ao buscar posts");

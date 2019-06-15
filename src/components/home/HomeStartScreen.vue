@@ -29,7 +29,7 @@
                     </span>
                 </p>
 
-                <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: initial;border-radius:5px;color:white">Ir para o BLOG</v-btn>
+                <!-- <v-btn href="blog" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: initial;border-radius:5px;color:white">Ir para o BLOG</v-btn> -->
 
                 &nbsp;
 
