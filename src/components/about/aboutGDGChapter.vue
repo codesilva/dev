@@ -51,7 +51,7 @@
                     Se quiser mais informações sobre o que tenho feito e como são os meus projetos, acesse o meu PORTFOLIO.
                 </p>    
 
-                <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: uppercase;border-radius:5px;color:white">VER PORTFOLIO</v-btn> 
+                <v-btn to="/portfolio" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: uppercase;border-radius:5px;color:white">VER PORTFOLIO</v-btn> 
                 &nbsp;
 
                 <!-- <v-btn href="https://developers.google.com/groups" target="_blank" outline color="cyan" style="text-transform: capitalize;border-radius:5px"  class="ml-0" dark>Learn More</v-btn> -->

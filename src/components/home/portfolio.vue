@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-md>
     <v-layout row wrap>
-      <v-flex v-for="(item,i) in items" :key="`1${i}`" xs1 md4>
+      <v-flex v-for="(item,i) in items" :key="`1${i}`" xs12 md4>
         
 
           <v-card 

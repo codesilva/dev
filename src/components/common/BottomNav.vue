@@ -16,41 +16,65 @@
         to="/home"
       >
         <span>Home</span>
-        <v-icon>dashboard</v-icon>
+        <v-icon>home</v-icon>
       </v-btn>
 
-      <v-btn
-        color="#518FF5"
-        flat
-        value="events"
-        router
-        to="/events"
-      >
-        <span>Events</span>
-        <v-icon>rounded_corner</v-icon>
-      </v-btn>
-
-      <v-btn
-        color="#518FF5"
-        flat
-        value="team"
-        router
-        to="/team"
-      >
-        <span>Team</span>
-        <v-icon>group</v-icon>
-      </v-btn>
-
-      <v-btn
+       <v-btn
         color="#518FF5"
         flat
         value="about"
         router
         to="/about"
       >
-        <span>About</span>
+        <span>Sobre</span>
         <v-icon>toc</v-icon>
       </v-btn>
+<!-- 
+      <v-btn
+        color="#518FF5"
+        flat
+        value="events"
+        router
+        to="/about"
+      >
+        <span>Sobre</span>
+        <v-icon>rounded_corner</v-icon>
+      </v-btn> -->
+
+      <v-btn
+        color="#518FF5"
+        flat
+        value="blog"
+        router
+        to="/blog"
+      >
+        <span>Blog</span>
+        <v-icon>dashboard</v-icon>
+      </v-btn>
+
+      <v-btn
+        color="#518FF5"
+        flat
+        value="portfolio"
+        router
+        to="/portfolio"
+      >
+        <span>Portfolio</span>
+        <v-icon>book</v-icon>
+      </v-btn>
+
+      <v-btn
+        color="#518FF5"
+        flat
+        value="contact"
+        router
+        to="/contact"
+      >
+        <span>Contato</span>
+        <v-icon>message</v-icon>
+      </v-btn>
+
+     
 
       
 
