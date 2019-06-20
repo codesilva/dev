@@ -92,12 +92,7 @@ import showdown from 'showdown';
           posts.doc(id).collection('content').get()
             .then(query => {
               const htmlContent = query.docs[0].data().postContent.replace(/\\n/g, String.fromCharCode(10));
-              console.log('%c'+converter.makeHtml('# HEADING\nParágrafo\n[release][https://google.com]'), 'color: red;');
               single.content = converter.makeHtml(htmlContent);
-              // single.content = query.docs[0].data().postContent;
-              // single.content = converter.makeHtml(query.docs[0].data().postContent);
-              // console.log('%c'+converter.makeHtml(single.content), 'color: red;');
-              
               this.$set(this.post, 'single', single);
             });
         }
